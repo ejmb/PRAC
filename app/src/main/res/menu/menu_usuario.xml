@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accion_registrar_usu"
+        android:title="@string/registro_string"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/accion_cambiar_usu"
+        android:title="@string/cambiarString"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/accion_eliminar_usu"
+        android:title="@string/eliminarString"
+        app:showAsAction="never"/>
+
+
+</menu>

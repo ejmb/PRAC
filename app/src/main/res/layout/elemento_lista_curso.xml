@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/elemento_lista_id"
+            android:padding="3dp"
+            android:layout_alignParentLeft="true"
+            android:background="#f1ecec"
+            android:layout_marginRight="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/elemento_imagen_id"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icono_curso"
+                android:contentDescription="@string/iconoCursoString" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewTituloCurso"
+                android:text="@string/tituloCursoString"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/horasString"
+                android:id="@+id/textViewHoras"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+</RelativeLayout>

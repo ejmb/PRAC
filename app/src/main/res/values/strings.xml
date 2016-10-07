@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PRAC</string>
+    <string name="tituloString">PRACTICA ASISTIDA</string>
+    <string name="historialString">Historial</string>
+    <string name="ncursoString">+Curso</string>
+    <string name="usuarioString">\@USUARIO</string>
+    <string name="cambiarString">Cambiar</string>
+    <string name="eliminarString">Eliminar</string>
+    <string name="tituloCursoString">\@CURSO</string>
+    <string name="iconoCursoString">icono_curso</string>
+    <string name="horasString">00/00</string>
+    <string name="nombre_string">Nombre</string>
+    <string name="apellido_string">Apellido</string>
+    <string name="documento_string">Documento</string>
+    <string name="titulo_registrar_string">Registro Usuario</string>
+    <string name="hint_nombre_string">Ingresar Nombre</string>
+    <string name="hint_apellido_string">Ingresar Apellido</string>
+    <string name="hint_documento_string">Ingresar Documento</string>
+    <string name="registrar_string">Registrar</string>
+    <string name="registro_string">Registro</string>
+    <string name="usuario_string">USUARIO</string>
+    <string name="universidad_string">Universidad</string>
+    <string name="facultad_string">Facultad</string>
+    <string name="curso_string">Curso</string>
+    <string name="codigo_string">Codigo</string>
+    <string name="hint_codigo">Ingrese Codigo</string>
+    <string name="hint_descripcion">Ingrese Descripcion</string>
+    <string name="reg_facultad_string">Registro Facultad</string>
+    <string name="reg_curso_string">Registro Curso</string>
+    <string name="cant_horas_string">Cantidad Horas</string>
+    <string name="hrs_string">hrs</string>
+</resources>
