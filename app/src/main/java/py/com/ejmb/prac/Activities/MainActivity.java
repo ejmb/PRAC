@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         cursos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(), "Posicion: "+i+" Id: "+l,Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Position: "+i+" Id: "+l,Toast.LENGTH_LONG).show();
             }
         });
     }
