@@ -24,7 +24,8 @@
         <activity android:name=".Activities.RegistroActivity" />
         <activity android:name=".Activities.RegUniversidadActivity" />
         <activity android:name=".Activities.RegFacultadActivity" />
-        <activity android:name=".Activities.RegCursoActivity"></activity>
+        <activity android:name=".Activities.RegCursoActivity" />
+        <activity android:name=".Activities.RegCursoHoras"></activity>
     </application>
 
 </manifest>

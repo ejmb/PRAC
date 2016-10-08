@@ -29,4 +29,8 @@
     <string name="reg_curso_string">Registro Curso</string>
     <string name="cant_horas_string">Cantidad Horas</string>
     <string name="hrs_string">hrs</string>
+    <string name="temp_curso_string">\@Curso</string>
+    <string name="temp_horas_string">xx Hrs / xx Hrs</string>
+    <string name="entrada_string">Entrada</string>
+    <string name="salida_string">Salida</string>
 </resources>
