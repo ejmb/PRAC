@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Toast.makeText(getApplicationContext(), "Position: "+i+" Id: "+l,Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, RegCursoHoras.class);
+                startActivity(intent);
             }
         });
     }

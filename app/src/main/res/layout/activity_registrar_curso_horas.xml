@@ -35,7 +35,8 @@
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/tvCurso"
         android:layout_toStartOf="@+id/tvCurso"
-        android:id="@+id/bEntrada" />
+        android:id="@+id/bEntrada"
+        android:onClick="setHoraEntrada"/>
 
     <Button
         android:text="@string/salida_string"
@@ -55,4 +56,24 @@
         android:layout_alignStart="@+id/tvHoras"
         android:layout_marginBottom="50dp"
         android:id="@+id/bHistorial" />
+
+    <TextView
+        android:text="xx:xx:xx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHoraSalida"
+        android:layout_alignBaseline="@+id/tvHoraEntrada"
+        android:layout_alignBottom="@+id/tvHoraEntrada"
+        android:layout_alignLeft="@+id/bSalida"
+        android:layout_alignStart="@+id/bSalida" />
+
+    <TextView
+        android:text="xx:xx:xx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/tvHoraEntrada"
+        android:layout_below="@+id/bEntrada"
+        android:layout_alignLeft="@+id/bEntrada"
+        android:layout_alignStart="@+id/bEntrada" />
 </RelativeLayout>
