@@ -13,7 +13,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.MainActivity">
+        <activity android:name=".Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +26,8 @@
         <activity android:name=".Activities.RegUniversidadActivity" />
         <activity android:name=".Activities.RegFacultadActivity" />
         <activity android:name=".Activities.RegCursoActivity" />
-        <activity android:name=".Activities.RegCursoHorasActivity"></activity>
+        <activity android:name=".Activities.RegCursoHorasActivity" />
+
     </application>
 
 </manifest>
