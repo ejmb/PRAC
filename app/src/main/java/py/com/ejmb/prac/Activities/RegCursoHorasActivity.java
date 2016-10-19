@@ -11,7 +11,7 @@ import java.util.Calendar;
 
 import py.com.ejmb.prac.R;
 
-public class RegCursoHoras extends AppCompatActivity {
+public class RegCursoHorasActivity extends AppCompatActivity {
 
     private TextView horaEntrada, horaSalida;
 
@@ -24,7 +24,7 @@ public class RegCursoHoras extends AppCompatActivity {
         horaSalida = (TextView)findViewById(R.id.tvHoraSalida);
     }
 
-    public void setHoraEntrada(View v){
+    public void setHoraEntradaSalida(final View v){
         Calendar mcurrentTime = Calendar.getInstance();
         int hour = mcurrentTime.get(Calendar.HOUR_OF_DAY);
         int minute = mcurrentTime.get(Calendar.MINUTE);
@@ -32,10 +32,20 @@ public class RegCursoHoras extends AppCompatActivity {
         mTimePicker = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
             @Override
             public void onTimeSet(TimePicker timePicker, int selectedHour, int selectedMinute) {
-                horaEntrada.setText( selectedHour + ":" + selectedMinute);
+                String currTime = String.format("%02d:%02d", selectedHour, selectedMinute);
+                switch (v.getId()){
+                    case R.id.bEntrada:{
+                        horaEntrada.setText(currTime);
+                        break;
+                    }
+                    case R.id.bSalida:{
+                        horaSalida.setText(currTime);
+                        break;
+                    }
+                }
             }
         }, hour, minute, true);//Yes 24 hour time
-        mTimePicker.setTitle("Select Time");
+        mTimePicker.setTitle("Seleccionar Hora");
         mTimePicker.show();
     }
 }

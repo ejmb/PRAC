@@ -33,4 +33,6 @@
     <string name="temp_horas_string">xx Hrs / xx Hrs</string>
     <string name="entrada_string">Entrada</string>
     <string name="salida_string">Salida</string>
+    <string name="drawer_open">Entrada</string>
+    <string name="drawer_close">Salida</string>
 </resources>

@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="py.com.ejmb.prac.Activities.RegCursoHoras">
+    tools:context="py.com.ejmb.prac.Activities.RegCursoHorasActivity">
 
     <TextView
         android:text="@string/temp_curso_string"
@@ -36,7 +36,7 @@
         android:layout_toLeftOf="@+id/tvCurso"
         android:layout_toStartOf="@+id/tvCurso"
         android:id="@+id/bEntrada"
-        android:onClick="setHoraEntrada"/>
+        android:onClick="setHoraEntradaSalida"/>
 
     <Button
         android:text="@string/salida_string"
@@ -45,7 +45,8 @@
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/tvCurso"
         android:layout_toEndOf="@+id/tvCurso"
-        android:id="@+id/bSalida" />
+        android:id="@+id/bSalida"
+        android:onClick="setHoraEntradaSalida"/>
 
     <Button
         android:text="@string/historialString"
